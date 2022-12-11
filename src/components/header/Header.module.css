@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+
+.header {
+  color: #323232;
+  display: flex;
+  width: 1131px;
+  height: 87px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  color: #ff5050;
+}
+.searchMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.iconsPluses {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  gap: 9px;
+  margin: 15px 0;
+}
+.icons {
+  display: flex;
+  align-items: center;
+}
+.icons img {
+  margin-right: 4px;
+}
+.search {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.busket {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.searchBut {
+  background-color: #25274d;
+  border-radius: 3px;
+  width: 45px;
+  height: 32px;
+  cursor: pointer;
+}
+.searchBut img {
+  object-fit: cover;
+}
+.searchInput {
+  font-family: "Montserrat", sans-serif;
+  width: 478px;
+  height: 25px;
+  border-radius: 3px;
+  background-color: #e5e5e55e;
+  border: 1px solid #dcdcdc;
+  color: #323232;
+}
+.searchInput:active, .searchInput:focus{
+  border: 1px solid gray;
+}
+.busket p {
+  margin: 0 9px;
+}
